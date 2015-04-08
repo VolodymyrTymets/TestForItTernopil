@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #00e5ff;
+}
+fieldset[disabled] .form-control:not(textarea):not(select), .form-control-wrapper .form-control:not(textarea):not(select), .form-control:not(textarea):not(select), fieldset[disabled] .form-control:focus:not(textarea):not(select), .form-control-wrapper .form-control:focus:not(textarea):not(select), .form-control:focus:not(textarea):not(select), fieldset[disabled] .form-control.focus:not(textarea):not(select), .form-control-wrapper .form-control.focus:not(textarea):not(select), .form-control.focus:not(textarea):not(select) {
+    height: 70px;
+}
+.extend-form-control{
+    background-color: #00e5ff;
+    color: white;
+    font-size: 50px;
+    height: 200px;
+}
+.send-form{
+    top:30%;
+    position: absolute;
+
+}
+.form-control-wrapper .form-control.empty~.floating-label {
+    opacity: 1;
+    color: beige;
+    font-size: 30px;
+}
+.responseholder{
+    top:30%;
+    position: absolute;
+}
+.responseholder p {
+    font-size: 60px;
+    color: #69f0ae;
+}
+.svg-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #263238;
+}
+
+.svg-icon circle {
+    stroke: #263238;
+    stroke-width: 1;
+}
